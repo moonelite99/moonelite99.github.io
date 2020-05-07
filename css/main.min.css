@@ -94,10 +94,12 @@ nav#mainNav a.active:after{
 }
 .lightGrey{
     background:#efefef;
-    width: 70%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 10%;
+    min-width: 75%;
     padding-top:100px;
     padding-bottom: 0px;
-    margin: auto;
 }
 .shortBtn{
     display:block;
@@ -168,7 +170,9 @@ nav#mainNav a.active:after{
     z-index:11;
 }
 .aboutContent{
-    margin-left:57%
+    position: relative;
+    left: 50%;
+    width: 50%;
 }
 .aboutTitle h1{
     color:#343434;
@@ -192,10 +196,10 @@ nav#mainNav a.active:after{
 }
 .darkGrey{
     background:#343434;
-    width: 70%;
+    width: 80%;
     padding-top:70px;
     padding-bottom: 0px;
-    margin: auto;
+    margin-left: 10%;;
 }
 .aboutInfo{
     color:#f2f2f1
