@@ -159,13 +159,12 @@ nav#mainNav a.active:after{
     background-size: cover;
     display: block;
     min-height:300px;
-    position:static;
-    width:100%;
+    width:29%;
     height: 100%;
-    left: 200px;
     position:absolute;
+    left:10%;
+    min-width: 400px;
     top:0;
-    width: 29%;
     z-index:11;
 }
 .aboutContent{
