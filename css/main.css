@@ -191,8 +191,19 @@ nav#mainNav a.active:after{
 }
 
 .imgAbout {
-	/* background-image: url(../img/about.JPG) ; */
-	
+	background-image: url(../img/about.JPG) ;
+    background-position: 50% 20%;
+    background-size: cover;
+    display: block;
+    min-height: 300px;
+    position: static;
+    width: 100%;
+	height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 11;
 }
 
 .aboutContent{

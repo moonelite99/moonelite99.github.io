@@ -59,8 +59,10 @@ body{
 .titleBig
 {
     text-transform:uppercase;
-    position:relative;display:inline-block;
-    margin-bottom:45px;font-size:16px
+    position:relative;
+    display:inline-block;
+    margin-bottom:45px;
+    font-size: 26px;
 }
 .titleBig:after{
     border-bottom:3px solid #343434;
@@ -78,18 +80,18 @@ h1,h2,h3,h4,h5,h6{
     font-weight:400
 }
 h1{font-size:26px}
-h2{font-size:16px}
-h3{font-size:15px}
+h2{font-size: 20px;}
+h3{font-size: 18px;}
 h4{font-size:13px}
 em{font-style:italic}
 strong{font-weight:700;color:#333}
 small{font-size:80%}
 a,.errorForm{
-    color:#343434;
+    color: #0868e2;
     -webkit-transition:all 0.5s ease 0s;
     -moz-transition:all 0.5s ease 0s;
     -o-transition:all .5 ease 0s;
-    transition:all 0.5s ease 0s
+    transition:all 0.5s ease 0s;
 }
 .regButton{
     font-size:16px;
@@ -110,7 +112,7 @@ nav#mainNav li,.aboutInfo ul span,.cForm label,.regButton,h1,h2,h3,h4,h5,h6,.pLi
 }
 .aboutTitle h1 span,.aboutIntro h1,.cForm input[type="text"],.cForm input[type="email"],input[type="number"],.cForm textarea,#success h2,#error h2{
     font-family:"Times New Roman", Times, serif
-}nav#mainNav li,ul#category li a,.projDesc span,.cForm input[type="text"]{font-size:13px}.remove-bottom{
+}nav#mainNav li,ul#category li a,.projDesc span,.cForm input[type="text"]{font-size: 17px;}.remove-bottom{
     margin-bottom:0!important
 }
 .half-bottom{
@@ -126,6 +128,10 @@ nav#mainNav li,.aboutInfo ul span,.cForm label,.regButton,h1,h2,h3,h4,h5,h6,.pLi
 .section{
     text-align:center
 }
-.section h2{text-align:left}
+.section h2{
+    text-align:left;
+    color: #0868e2;
+    text-decoration: underline;
+}
 .bBottom{border-bottom:3px solid #efefef}
 .top{margin-top:60px}
