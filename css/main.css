@@ -664,7 +664,8 @@ ul#category li a:hover {
 }
 
 .footerholder p{
-	margin-top:10px;
+	margin-top:0px;
+	bottom: 0;
 }
 
 .bLogo{
