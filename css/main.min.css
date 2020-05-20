@@ -156,7 +156,7 @@ nav#mainNav a.active:after{
     -moz-box-sizing:border-box
 }
 .imgAbout{
-    background-image:url(../img/thao.png);
+    background-image:url(../img/quan.png);
     background-position:50% 20%;
     background-size: cover;
     display: block;
