@@ -566,7 +566,7 @@ ul#category li a:hover{
     -moz-box-sizing:border-box
 }
 .socialsFooter li i{
-    line-height:35px
+    line-height:35px;
 }
 .socialsFooter a:hover{
     border:3px solid #ccc;
